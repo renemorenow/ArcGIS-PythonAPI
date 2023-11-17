@@ -1,0 +1,139 @@
+{
+    "renderer": {
+        "authoringInfo": {
+            "classificationMethod": "esriClassifyNaturalBreaks",
+            "type": "classedColor"
+        },
+        "classBreakInfos": [
+            {
+                "classMaxValue": 160971,
+                "label": "67 \u2013 160,971",
+                "symbol": {
+                    "color": [
+                        230,
+                        238,
+                        207,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            194,
+                            194,
+                            194,
+                            64
+                        ],
+                        "style": "esriSLSSolid",
+                        "type": "esriSLS",
+                        "width": 0.375
+                    },
+                    "style": "esriSFSSolid",
+                    "type": "esriSFS"
+                }
+            },
+            {
+                "classMaxValue": 534678,
+                "label": "> 160,971 \u2013 534,678",
+                "symbol": {
+                    "color": [
+                        155,
+                        196,
+                        193,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            194,
+                            194,
+                            194,
+                            64
+                        ],
+                        "style": "esriSLSSolid",
+                        "type": "esriSLS",
+                        "width": 0.375
+                    },
+                    "style": "esriSFSSolid",
+                    "type": "esriSFS"
+                }
+            },
+            {
+                "classMaxValue": 1334544,
+                "label": "> 534,678 \u2013 1,334,544",
+                "symbol": {
+                    "color": [
+                        105,
+                        168,
+                        183,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            194,
+                            194,
+                            194,
+                            64
+                        ],
+                        "style": "esriSLSSolid",
+                        "type": "esriSLS",
+                        "width": 0.375
+                    },
+                    "style": "esriSFSSolid",
+                    "type": "esriSFS"
+                }
+            },
+            {
+                "classMaxValue": 3400578,
+                "label": "> 1,334,544 \u2013 3,400,578",
+                "symbol": {
+                    "color": [
+                        75,
+                        126,
+                        152,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            194,
+                            194,
+                            194,
+                            64
+                        ],
+                        "style": "esriSLSSolid",
+                        "type": "esriSLS",
+                        "width": 0.375
+                    },
+                    "style": "esriSFSSolid",
+                    "type": "esriSFS"
+                }
+            },
+            {
+                "classMaxValue": 9519338,
+                "label": "> 3,400,578 \u2013 9,519,338",
+                "symbol": {
+                    "color": [
+                        46,
+                        85,
+                        122,
+                        255
+                    ],
+                    "outline": {
+                        "color": [
+                            194,
+                            194,
+                            194,
+                            64
+                        ],
+                        "style": "esriSLSSolid",
+                        "type": "esriSLS",
+                        "width": 0.375
+                    },
+                    "style": "esriSFSSolid",
+                    "type": "esriSFS"
+                }
+            }
+        ],
+        "classificationMethod": "esriClassifyNaturalBreaks",
+        "field": "pop2000",
+        "minValue": 67,
+        "type": "classBreaks"
+    }
+}

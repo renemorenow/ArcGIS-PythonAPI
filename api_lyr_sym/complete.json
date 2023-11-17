@@ -1,0 +1,229 @@
+{
+    "layers": [
+        {
+            "defaultVisibility": true,
+            "id": 0,
+            "layerDefinition": {
+                "source": {
+                    "mapLayerId": 0,
+                    "type": "mapLayer"
+                }
+            },
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Cities",
+            "parentLayerId": -1
+        },
+        {
+            "defaultVisibility": true,
+            "id": 1,
+            "layerDefinition": {
+                "source": {
+                    "mapLayerId": 1,
+                    "type": "mapLayer"
+                }
+            },
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Highways",
+            "parentLayerId": -1
+        },
+        {
+            "defaultVisibility": true,
+            "id": 2,
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "description": "",
+                        "label": "",
+                        "symbol": {
+                            "color": [
+                                0,
+                                0,
+                                0,
+                                0
+                            ],
+                            "outline": {
+                                "color": [
+                                    0,
+                                    0,
+                                    0,
+                                    255
+                                ],
+                                "style": "esriSLSSolid",
+                                "type": "esriSLS",
+                                "width": 1
+                            },
+                            "style": "esriSFSSolid",
+                            "type": "esriSFS"
+                        },
+                        "type": "simple"
+                    }
+                },
+                "source": {
+                    "mapLayerId": 2,
+                    "type": "mapLayer"
+                }
+            },
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "States",
+            "parentLayerId": -1
+        },
+        {
+            "defaultVisibility": true,
+            "id": 3,
+            "layerDefinition": {
+                "drawingInfo": {
+                    "renderer": {
+                        "authoringInfo": {
+                            "classificationMethod": "esriClassifyNaturalBreaks",
+                            "type": "classedColor"
+                        },
+                        "classBreakInfos": [
+                            {
+                                "classMaxValue": 160971,
+                                "label": "67 \u2013 160,971",
+                                "symbol": {
+                                    "color": [
+                                        230,
+                                        238,
+                                        207,
+                                        255
+                                    ],
+                                    "outline": {
+                                        "color": [
+                                            194,
+                                            194,
+                                            194,
+                                            64
+                                        ],
+                                        "style": "esriSLSSolid",
+                                        "type": "esriSLS",
+                                        "width": 0.375
+                                    },
+                                    "style": "esriSFSSolid",
+                                    "type": "esriSFS"
+                                }
+                            },
+                            {
+                                "classMaxValue": 534678,
+                                "label": "> 160,971 \u2013 534,678",
+                                "symbol": {
+                                    "color": [
+                                        155,
+                                        196,
+                                        193,
+                                        255
+                                    ],
+                                    "outline": {
+                                        "color": [
+                                            194,
+                                            194,
+                                            194,
+                                            64
+                                        ],
+                                        "style": "esriSLSSolid",
+                                        "type": "esriSLS",
+                                        "width": 0.375
+                                    },
+                                    "style": "esriSFSSolid",
+                                    "type": "esriSFS"
+                                }
+                            },
+                            {
+                                "classMaxValue": 1334544,
+                                "label": "> 534,678 \u2013 1,334,544",
+                                "symbol": {
+                                    "color": [
+                                        105,
+                                        168,
+                                        183,
+                                        255
+                                    ],
+                                    "outline": {
+                                        "color": [
+                                            194,
+                                            194,
+                                            194,
+                                            64
+                                        ],
+                                        "style": "esriSLSSolid",
+                                        "type": "esriSLS",
+                                        "width": 0.375
+                                    },
+                                    "style": "esriSFSSolid",
+                                    "type": "esriSFS"
+                                }
+                            },
+                            {
+                                "classMaxValue": 3400578,
+                                "label": "> 1,334,544 \u2013 3,400,578",
+                                "symbol": {
+                                    "color": [
+                                        75,
+                                        126,
+                                        152,
+                                        255
+                                    ],
+                                    "outline": {
+                                        "color": [
+                                            194,
+                                            194,
+                                            194,
+                                            64
+                                        ],
+                                        "style": "esriSLSSolid",
+                                        "type": "esriSLS",
+                                        "width": 0.375
+                                    },
+                                    "style": "esriSFSSolid",
+                                    "type": "esriSFS"
+                                }
+                            },
+                            {
+                                "classMaxValue": 9519338,
+                                "label": "> 3,400,578 \u2013 9,519,338",
+                                "symbol": {
+                                    "color": [
+                                        46,
+                                        85,
+                                        122,
+                                        255
+                                    ],
+                                    "outline": {
+                                        "color": [
+                                            194,
+                                            194,
+                                            194,
+                                            64
+                                        ],
+                                        "style": "esriSLSSolid",
+                                        "type": "esriSLS",
+                                        "width": 0.375
+                                    },
+                                    "style": "esriSFSSolid",
+                                    "type": "esriSFS"
+                                }
+                            }
+                        ],
+                        "classificationMethod": "esriClassifyNaturalBreaks",
+                        "field": "pop2000",
+                        "minValue": 67,
+                        "type": "classBreaks"
+                    }
+                },
+                "source": {
+                    "mapLayerId": 3,
+                    "type": "mapLayer"
+                }
+            },
+            "maxScale": 0,
+            "minScale": 0,
+            "name": "Counties",
+            "parentLayerId": -1
+        }
+    ],
+    "opacity": 1,
+    "visibility": true
+}

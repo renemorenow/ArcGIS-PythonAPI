@@ -1,0 +1,11 @@
+https://proceedings.esri.com/library/userconf/devsummit21/index.html
+Pagina 22: Introduction to the ArcGIS API for Python
+	https://www.youtube.com/watch?v=OQ80JcPn1c4
+Pagina 1: Administering Your GIS Organizations Using ArcGIS API for Python
+	https://www.youtube.com/watch?v=S8xGDvFKjS0
+Pagina 16: Cloning Apps and Items with ArcGIS API for Python
+	https://www.youtube.com/watch?v=PhEM-k34bbY
+Pagina 18: Deploying Apps and Services with ArcGIS API for Python
+	https://www.youtube.com/watch?v=iMDrsCyq-1g
+Pagina 23: Mapping and Visualization Using the ArcGIS API for Python
+	https://www.youtube.com/watch?v=SbATKImiSkw

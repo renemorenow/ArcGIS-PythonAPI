@@ -1,0 +1,383 @@
+{
+  "operationalLayers": [
+    {
+      "id": "USA_1347",
+      "layerType": "ArcGISMapServiceLayer",
+      "url": "https://sampleserver6.arcgisonline.com/arcgis/rest/services/USA/MapServer",
+      "visibility": true,
+      "opacity": 1,
+      "title": "earl_api_usasymb",
+      "itemId": "29976c5b7d2940f9a55f7d03fe13d2ca",
+      "layers": [
+        {
+          "defaultVisibility": true,
+          "id": 0,
+          "layerDefinition": {
+            "source": {
+              "mapLayerId": 0,
+              "type": "mapLayer"
+            }
+          },
+          "maxScale": 0,
+          "minScale": 0,
+          "name": "Cities",
+          "parentLayerId": -1
+        },
+        {
+          "defaultVisibility": true,
+          "id": 1,
+          "layerDefinition": {
+            "source": {
+              "mapLayerId": 1,
+              "type": "mapLayer"
+            }
+          },
+          "maxScale": 0,
+          "minScale": 0,
+          "name": "Highways",
+          "parentLayerId": -1
+        },
+        {
+          "defaultVisibility": true,
+          "id": 2,
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "description": "",
+                "label": "",
+                "symbol": {
+                  "color": [
+                    0,
+                    0,
+                    0,
+                    0
+                  ],
+                  "outline": {
+                    "color": [
+                      0,
+                      0,
+                      0,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 1
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "type": "simple"
+              }
+            },
+            "source": {
+              "mapLayerId": 2,
+              "type": "mapLayer"
+            }
+          },
+          "maxScale": 0,
+          "minScale": 0,
+          "name": "States",
+          "parentLayerId": -1
+        },
+        {
+          "defaultVisibility": true,
+          "id": 3,
+          "layerDefinition": {
+            "drawingInfo": {
+              "renderer": {
+                "authoringInfo": {
+                  "type": "classedColor",
+                  "classificationMethod": "esriClassifyNaturalBreaks"
+                },
+                "type": "classBreaks",
+                "field": "pop2000",
+                "minValue": 67,
+                "classBreakInfos": [
+                  {
+                    "symbol": {
+                      "color": [
+                        255,
+                        252,
+                        212,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "67 – 29,130",
+                    "classMaxValue": 29130
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        205,
+                        224,
+                        202,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 29,130 – 72,604",
+                    "classMaxValue": 72604
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        180,
+                        210,
+                        198,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 72,604 – 139,277",
+                    "classMaxValue": 139277
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        130,
+                        182,
+                        188,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 139,277 – 242,628",
+                    "classMaxValue": 242628
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        105,
+                        168,
+                        183,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 242,628 – 426,526",
+                    "classMaxValue": 426526
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        90,
+                        147,
+                        168,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 426,526 – 707,161",
+                    "classMaxValue": 707161
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        61,
+                        106,
+                        137,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 707,161 – 1,223,499",
+                    "classMaxValue": 1223499
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        46,
+                        85,
+                        122,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 1,223,499 – 2,465,326",
+                    "classMaxValue": 2465326
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        16,
+                        43,
+                        91,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 2,465,326 – 5,376,741",
+                    "classMaxValue": 5376741
+                  },
+                  {
+                    "symbol": {
+                      "color": [
+                        13,
+                        38,
+                        68,
+                        255
+                      ],
+                      "outline": {
+                        "color": [
+                          194,
+                          194,
+                          194,
+                          64
+                        ],
+                        "width": 0.375,
+                        "type": "esriSLS",
+                        "style": "esriSLSSolid"
+                      },
+                      "type": "esriSFS",
+                      "style": "esriSFSSolid"
+                    },
+                    "label": "> 5,376,741 – 9,519,338",
+                    "classMaxValue": 9519338
+                  }
+                ],
+                "classificationMethod": "esriClassifyNaturalBreaks"
+              }
+            },
+            "source": {
+              "mapLayerId": 3,
+              "type": "mapLayer"
+            }
+          },
+          "maxScale": 0,
+          "minScale": 0,
+          "name": "Counties",
+          "parentLayerId": -1
+        }
+      ]
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "defaultBasemap",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer",
+        "visibility": true,
+        "opacity": 1,
+        "title": "Topographic"
+      }
+    ],
+    "title": "Topographic"
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "authoringApp": "WebMapViewer",
+  "authoringAppVersion": "7.1",
+  "version": "2.14"
+}
