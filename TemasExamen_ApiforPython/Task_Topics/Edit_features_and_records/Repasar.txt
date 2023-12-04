@@ -1,0 +1,12 @@
+item.append
+ejemplo: 
+boundaries_lyr.append(item_id=sov_csv.id,
+                      upload_format = 'csv',
+                      field_mappings = [{"name":"sovereignty_year", "source":"Date_of_last_subordination"},
+                                        {"name":"NAME", "source":"Country"}],
+                      source_info = source_info['publishParameters'],
+                      upsert=True,
+                      update_geometry=False,
+                      append_fields=["sovereignty_year", "NAME"],
+                      skip_inserts=True,
+                      upsert_matching_field="NAME")
